@@ -1,0 +1,68 @@
+name: sandya_nusantara
+description: Application for learning Javanese culture and language.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  shared_preferences: ^2.2.2
+  provider: ^6.1.1
+  table_calendar: ^3.0.9
+  audioplayers: ^5.0.0
+  flutter_tts: ^3.8.3
+  just_audio: ^0.9.36
+  path_provider: ^2.1.1
+  flutter_local_notifications: ^15.1.0
+  image_picker: ^1.0.7
+  timezone: ^0.9.2
+  url_launcher: ^6.2.5
+  font_awesome_flutter: ^10.5.0
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.14.3
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: false
+  image_path: "assets/images/launcher.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/welcome_background.png
+    - assets/images/splash_background.png
+    - assets/images/challenge_icon.png
+    - assets/images/background.png
+    - assets/images/challenge.png
+    - assets/images/logo.png
+    - assets/images/history.png
+    - assets/sounds/bapak_lenggah_wonten_ing_ruang_tamu.mp3
+    - assets/sounds/duduk.mp3
+    - assets/sounds/kata makan.mp3
+    - assets/sounds/dhahar.mp3
+    - assets/sounds/krama_inggil.mp3
+    - assets/sounds/kula.mp3
+    - assets/sounds/panjenengan.mp3
+    - assets/sounds/griya.mp3
+    - assets/sounds/sugeng_rawuh_ing_sandya_nusantara.mp3
+    - assets/sounds/kula_badhe_tindak.mp3
+    - assets/sounds/kula_badhe_dhahar_sekul.mp3
+    - assets/sounds/bapak_damel_wonten_kantor.mp3
+    - assets/sounds/pagi.mp3
+    - assets/sounds/siang.mp3
+    - assets/sounds/malam.mp3
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Poppins-Medium.ttf
+          weight: 500
